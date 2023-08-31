@@ -1,0 +1,40 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 0, 0);
+  border-top: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border-top: none;
+}
+
+.value {
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-top: 5%;
+  cursor: pointer;
+  background-color: #000;
+}
+
+.value:hover {
+  opacity: 0.5;
+}
+
+.value:active {
+  animation: reduzirOpacidade 0.3s linear;
+}
+
+@keyframes reduzirOpacidade {
+  0% {
+    opacity: 1; /* Opacidade normal do botão (sem animação) */
+  }
+  50% {
+    opacity: 0.5; /* Opacidade reduzida após 50% da animação */
+  }
+  100% {
+    opacity: 1; /* Opacidade normal do botão novamente (ao final da animação) */
+  }
+}

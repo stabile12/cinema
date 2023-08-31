@@ -1,0 +1,36 @@
+.total {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  background-color: #000000;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding-top: 10px;
+}
+
+.logo {
+  color: white;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bolder;
+}
+.option {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  color: white;
+  font-weight:bolder;
+}
+
+.option:hover {
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+}

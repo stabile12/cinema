@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "BankApplication",
+      "request": "launch",
+      "mainClass": "BankApplication",
+      "projectName": "bank"
+    },
+    {
+      "type": "java",
+      "name": "BankApplication",
+      "request": "launch",
+      "mainClass": "bank.BankApplication",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ApiApplication<api>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "api.ApiApplication",
+      "projectName": "api",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

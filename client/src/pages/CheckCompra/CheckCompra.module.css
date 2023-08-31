@@ -1,0 +1,55 @@
+.container {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.display {
+  width: 100%;
+  height: 80%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  padding-top: 30px;
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pedidoDetails {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pedidoDetails p {
+  margin: 5px;
+}
+
+.seats {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.seat {
+  display: inline-block;
+  border: 2px solid rgb(255, 0, 0);
+  margin-right: 5px;
+  font-size: 18px;
+  padding: 8px;
+}

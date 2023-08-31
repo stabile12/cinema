@@ -1,0 +1,110 @@
+.container {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  color: white;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.info {
+  width: 30%;
+  margin-left: 5%;
+  padding: 20px;
+}
+
+.info p {
+  margin-top: 10px;
+}
+
+.seatSelection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.seatSelection h1, h3 {
+  margin-bottom: 10px;
+}
+
+.seatGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 45px); /* 6 assentos por fila */
+  gap: 5px; /* Espaçamento entre os assentos */
+  place-items: center;
+  padding-left: 30px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 0, 0);
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.seat:hover {
+  background-color: #a90000;
+}
+
+.occupied {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: rgb(56, 56, 56); /* Assentos ocupados em vermelho */
+  cursor: not-allowed; /* Assentos ocupados não são clicáveis */
+}
+
+.order {
+  width: 100vw;
+  height: 20%;
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.seatsSelected {
+  width: 50%;
+  height: 100%;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  
+  
+}
+
+.comprarButton {
+  height: 50%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comprarButton:hover {
+  background-color: #000;
+  color:#ff0000
+}

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #000;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  
+}
+
+.movie {
+  height: 70vh;
+  
+  margin-top: 5%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.movieInfo {
+  height: 80%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-left: 1%;
+}
+
+.movieInfo span {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.movieDetails {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.movieDetails p {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+.movieDescription {
+  height: 50vh;
+  width: 70%;
+  margin-left: 10%;
+  padding-left:10px
+}
+
+.movieDescription h2 {
+  color:rgb(255, 0, 0)
+}
+
+.movieDescription p {
+  margin-top: 10px;
+  width: 90%;
+  font-weight: 100;
+}
+
+.specs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.sessions {
+  width: 70%;
+  margin-left: 10%;
+  padding-left:10px
+}
+
+.sessions h1 {
+  color:rgb(255, 0, 0);
+  font-weight: 500;
+}
+
+.dias {
+  background-color: #252525;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.dia {
+  padding: 15px;
+  border: 4px solid #000000;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;;
+}
+
+.dia:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: 4px solid #ffffff;
+}
+
+.selectedDia {
+  background-color: #000;
+  border: 4px solid rgb(255, 0, 0);
+  font-weight: 700;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.sessionsList {
+  height: 100vh;
+  width: 100%;
+}
+
+.session {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  height: 70px;
+  margin-top: 5px;
+  border: 1px solid #fff;
+}
+
+.sessionInfo {
+  display: flex;
+  justify-content: row;
+  gap: 10px;
+}
+
+.sessionInfo span {
+  border: 2px solid #ffffff;
+  padding: 5px 10px 5px 10px;
+}
+
+.comprarButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.comprarButton:hover {
+  background-color: #000;
+  color:#ff0000
+}
+
+
