@@ -11,7 +11,7 @@ router.post('/', async (req, res) => {
       console.log('não encontrado!')
       res.status(404).send();
     }
-  } catch (error) {
+  } catch (error) { 
     console.error(error);
     res.status(500).json({ message: 'Erro interno do servidor' });
   }

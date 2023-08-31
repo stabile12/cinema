@@ -15,7 +15,7 @@ export default function Pedidos() {
 
     } catch (e) {  
       console.log("nenhum pedido encontrado!")
-    }
+    } 
   }
 
   const formatedCpf = (e) => {
